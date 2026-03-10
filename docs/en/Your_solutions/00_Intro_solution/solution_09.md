@@ -76,4 +76,3 @@ At x = 1:
 
 
 
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/76c44090-9f9a-404d-8972-cb0db8247bd9" />
