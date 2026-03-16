@@ -1,117 +1,129 @@
-# Problem 6: Variable Velocity
 
-We are given the velocity function $v(t)=t^2+2t-5$ and the initial position $x(0)=4$.
 
-We want:
+We are given the **velocity function**:
 
-1. The position at $t=3$, i.e. $x(3)$.
-2. The acceleration at $t=3$, i.e. $a(3)$.
+v(t) = t² + 2t − 5
+
+We are also told:
+
+x(0) = 4 (the position at time 0).
+
+We must find:
+
+1️⃣ Position at **t = 3**
+2️⃣ Acceleration at **t = 3**
 
 ---
 
-## 1) Position from velocity theory
+# 1. Find acceleration
 
-Velocity is the derivative of position:
+Important rule in physics:
 
-$$
-v(t)=\frac{dx}{dt}
-$$
+acceleration = derivative of velocity
+
+So we differentiate:
+
+v(t) = t² + 2t − 5
+
+Derivative rules:
+
+* derivative of t² = 2t
+* derivative of 2t = 2
+* derivative of constant = 0
 
 So:
 
-$$
-\frac{dx}{dt}=t^2+2t-5
-$$
+a(t) = 2t + 2
 
-Integrate both sides with respect to $t$:
+Now substitute **t = 3**:
 
-$$
-x(t)=\int (t^2+2t-5)\,dt
-$$
+a(3) = 2(3) + 2
+a(3) = 6 + 2
+a(3) = **8**
 
-Compute the integral term-by-term:
+✅ Acceleration at t = 3 is **8**.
 
-$$
-\int t^2\,dt=\frac{t^3}{3},\qquad
-\int 2t\,dt=t^2,\qquad
-\int (-5)\,dt=-5t
-$$
+---
 
-So the general position function is:
+# 2. Find the position function
 
-$$
-x(t)=\frac{t^3}{3}+t^2-5t+C
-$$
+Velocity is the derivative of position.
 
-Use the initial condition $x(0)=4$:
+So to find position we **integrate velocity**.
 
-$$
-x(0)=\frac{0^3}{3}+0^2-5\cdot 0 + C = C = 4
-$$
+v(t) = t² + 2t − 5
 
-Therefore:
+Integrate each term:
 
-$$
-x(t)=\frac{t^3}{3}+t^2-5t+4
-$$
+∫t² dt = t³ / 3
 
-Now evaluate at $t=3$:
+∫2t dt = t²
 
-$$
-x(3)=\frac{3^3}{3}+3^2-5\cdot 3+4
-=\frac{27}{3}+9-15+4
-=9+9-15+4
-$$
+∫−5 dt = −5t
 
-Compute:
-$$
-9+9=18,\qquad 18-15=3,\qquad 3+4=7
-$$
+So position becomes:
+
+x(t) = t³/3 + t² − 5t + C
+
+C is a constant.
+
+---
+
+# 3. Find the constant C
+
+We know:
+
+x(0) = 4
+
+Substitute t = 0:
+
+4 = 0 + 0 − 0 + C
 
 So:
 
-$$
-x(3)=7
-$$
+C = **4**
+
+Now the position function is:
+
+x(t) = t³/3 + t² − 5t + 4
 
 ---
 
-## 2) Acceleration from velocity
+# 4. Find position at t = 3
 
-Acceleration is the derivative of velocity:
+Substitute t = 3:
 
-$$
-a(t)=\frac{dv}{dt}
-$$
+x(3) = 3³/3 + 3² − 5(3) + 4
 
-Differentiate:
+Calculate step by step:
 
-$$
-v(t)=t^2+2t-5
-\quad\Rightarrow\quad
-a(t)=2t+2
-$$
+3³ = 27
 
-Evaluate at $t=3$:
+27 / 3 = 9
 
-$$
-a(3)=2\cdot 3 + 2 = 8
-$$
+3² = 9
 
----
+Now:
 
-## Final answers
+x(3) = 9 + 9 − 15 + 4
 
-$$
-x(3)=7
-$$
+x(3) = 18 − 15 + 4
 
-$$
-a(3)=8
-$$
+x(3) = 3 + 4
+
+x(3) = **7**
 
 ---
 
-## Plot the velocity and acceleration
+# Final answers
 
-![Velocity and Acceleration Plots](velocity_acceleration_plots.png)
+Position at t = 3:
+
+x(3) = **7**
+
+Acceleration at t = 3:
+
+a(3) = **8**
+
+---
+
