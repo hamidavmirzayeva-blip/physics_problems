@@ -87,4 +87,3 @@ Centripetal acceleration of a person at the equator:
 
 
 
-If you want, I can also **show how to calculate the tangential speed at the equator** — it’s fun to see how fast you’re actually moving! Do you want me to do that?
