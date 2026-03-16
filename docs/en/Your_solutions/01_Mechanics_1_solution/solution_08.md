@@ -1,89 +1,68 @@
 
-We are asked: **Centripetal acceleration at the equator**.
+
 
 ---
 
-# 1. Formula for centripetal acceleration
+**Problem:** Calculate the centripetal acceleration of a person standing on the Earth's equator. Radius of Earth = 6378 km.
+
+---
+
+### Step 1: Formula
 
 Centripetal acceleration:
 
-[
-a_c = \frac{v^2}{r}
-]
+```
+ac = ω² * r
+```
 
-* (v) = speed of the person
-* (r) = radius of the circle (Earth’s radius)
+where:
 
-Alternatively, we can use:
-
-[
-a_c = \omega^2 r
-]
-
-* (\omega) = angular velocity of Earth (radians/sec)
-* (r) = radius
-
-We will use the second formula because we know the Earth’s **rotation period**.
+* ω = angular speed of Earth in radians/sec
+* r = radius of Earth in meters
 
 ---
 
-# 2. Find angular velocity
+### Step 2: Angular velocity
 
-Earth rotates **once per day**:
+Earth rotates once per day:
 
-* Period (T = 24\text{ h} = 24 \times 3600\text{ s} = 86400\text{ s})
+```
+T = 24 hours = 24 * 3600 seconds = 86400 s
+```
 
 Angular velocity:
 
-[
-\omega = \frac{2\pi}{T}
-]
-
-[
-\omega = \frac{2 \pi}{86400} \approx 7.272 \times 10^{-5} \text{ rad/s}
-]
+```
+ω = 2 * π / T
+ω = 2 * 3.1416 / 86400 ≈ 7.272 × 10^-5 rad/s
+```
 
 ---
 
-# 3. Convert Earth's radius to meters
+### Step 3: Convert Earth's radius to meters
 
-Given: (r = 6378\text{ km})
-
-[
-r = 6378 \times 1000 = 6.378 \times 10^6 \text{ m}
-]
+```
+r = 6378 km = 6378 * 1000 = 6,378,000 m
+```
 
 ---
 
-# 4. Compute centripetal acceleration
+### Step 4: Compute centripetal acceleration
 
-[
-a_c = \omega^2 r
-]
-
-(\omega^2 = (7.272 \times 10^{-5})^2 \approx 5.29 \times 10^{-9})
-
-[
-a_c = 5.29 \times 10^{-9} \times 6.378 \times 10^6
-]
-
-Multiply:
-
-[
-a_c \approx 0.0337 \text{ m/s²}
-]
+```
+ac = ω² * r
+ω² = (7.272 × 10^-5)² ≈ 5.29 × 10^-9
+ac = 5.29 × 10^-9 * 6,378,000
+ac ≈ 0.0337 m/s²
+```
 
 ---
 
-# ✅ 5. Final Answer
+### Step 5: Final Answer
 
-Centripetal acceleration of a person at the equator:
-
-[
-\boxed{a_c \approx 0.034 \text{ m/s²}}
-]
+```
+Centripetal acceleration at the equator ≈ 0.034 m/s²
+```
 
 ---
-
-
 
