@@ -104,6 +104,9 @@ $$
 
 ---
 
+![alt text](<Code_Generated_Image (3).png>)
+
+
 ## 🔹 Step 4: Graphs
 
 - Force vs position:
