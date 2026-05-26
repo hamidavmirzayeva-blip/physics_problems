@@ -2,107 +2,35 @@
 
 ## Given
 
-Voltage:
-
-$$
-V = (10.0 \pm 0.2)\ \text{V}
-$$
-
-Current:
-
-$$
-I = (2.00 \pm 0.05)\ \text{A}
-$$
-
-We want to find:
-
-1. Resistance
-2. Uncertainty in resistance
+$$V = (10.0 \pm 0.2)\ \text{V}$$  
+$$I = (2.00 \pm 0.05)\ \text{A}$$  
 
 ---
 
-# Step 1: Ohm’s Law
+## Step 1: Ohm’s Law
 
-Resistance is given by:
+$$R = \frac{V}{I}$$  
 
-$$
-R = \frac{V}{I}
-$$
-
-Substitute values:
-
-$$
-R = \frac{10.0}{2.00}
-$$
+$$R = \frac{10.0}{2.00} = 5.00\ \Omega$$  
 
 ---
 
-# Step 2: Calculate Resistance
+## Step 2: Uncertainty
 
-$$
-R = 5.00\ \Omega
-$$
+$$\frac{\Delta R}{R} = \frac{\Delta V}{V} + \frac{\Delta I}{I}$$  
 
----
+$$\frac{\Delta R}{R} = \frac{0.2}{10.0} + \frac{0.05}{2.00}$$  
 
-# Step 3: Propagation of Uncertainty
-
-For division, fractional uncertainties add:
-
-$$
-\frac{\Delta R}{R} = \frac{\Delta V}{V} + \frac{\Delta I}{I}
-$$
-
-Substitute values:
-
-$$
-\frac{\Delta R}{R}
-=
-\frac{0.2}{10.0} + \frac{0.05}{2.00}
-$$
-
-$$
-\frac{\Delta R}{R}
-=
-0.02 + 0.025
-$$
-
-$$
-\frac{\Delta R}{R} = 0.045
-$$
+$$\frac{\Delta R}{R} = 0.045$$  
 
 ---
 
-# Step 4: Absolute Uncertainty
+## Step 3: Absolute uncertainty
 
-$$
-\Delta R = R \cdot 0.045
-$$
-
-$$
-\Delta R = 5.00 \times 0.045
-$$
-
-$$
-\Delta R = 0.225\ \Omega
-$$
+$$\Delta R = 5.00 \times 0.045 = 0.225\ \Omega$$  
 
 ---
 
-# Final Answer
+## Final Answer
 
-$$
-R = (5.00 \pm 0.23)\ \Omega
-$$
-
----
-
-# Result Summary
-
-| Quantity | Value |
-|---|---|
-| Voltage | $10.0 \pm 0.2\ \text{V}$ |
-| Current | $2.00 \pm 0.05\ \text{A}$ |
-| Resistance | $5.00\ \Omega$ |
-| Uncertainty | $\pm 0.23\ \Omega$ |
-| Final Result | $(5.00 \pm 0.23)\ \Omega$ |
+$$R = (5.00 \pm 0.23)\ \Omega$$
